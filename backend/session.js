@@ -88,7 +88,7 @@ const erouter = (usernames, pfps, settings, permissions, automation) => {
             .setColor('RED')
             .setTimestamp()
             .setAuthor(username, pfp, `https://www.roblox.com/users/${data.uid}`)
-            .setDescription(`The ${data.type.name} hosted by ${username} has ended! We would like to thank you for attending`)
+            .setDescription(`The ${data.type.name} hosted by ${username} has ended! We would like to thank you for attending.`)
             .setFooter({ text: `Tovy sessions` });
 
 
